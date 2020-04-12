@@ -1,0 +1,23 @@
+{
+  "name": "profett",
+  "version": "1.0.0",
+  "description": "Stock evaluator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcollantes/profett.git"
+  },
+  "author": "Xavier Collantes (xcollantes@google.com)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/xcollantes/profett/issues"
+  },
+  "homepage": "https://github.com/xcollantes/profett#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-vis": "^1.11.7"
+  }
+}
