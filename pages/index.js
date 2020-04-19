@@ -1,10 +1,12 @@
 import Link from 'next/link';
+import Header from '../comps/Header';
 
 export default function IndexThe() {
   return (
     <div>
+      <Header />
       <Link href="/about">
-        <a title="About Title">ABOUT</a>
+        <a>ABOUT</a>
       </Link>
      <p>Hello JS</p>
     </div>
