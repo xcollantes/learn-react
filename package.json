@@ -4,7 +4,9 @@
   "description": "Stock evaluator.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,9 @@
   },
   "homepage": "https://github.com/xcollantes/profett#readme",
   "dependencies": {
+    "next": "^9.3.4",
     "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-vis": "^1.11.7"
   }
 }
