@@ -46,9 +46,9 @@ Index.getInitialProps = async function() {
   const response = await fetch('https://api.tvmaze.com/search/shows?q=batman');
   const data = await response.json();
 
-  console.log(`Show data recieved. Count: ${data.length}`);
-  console.log({data});
-  console.log( {shows: data.map(entry => entry.show)} );
+  console.log(`Show data recieved. Count: ${data.length} Made API call INDEX`);
+  //console.log({data});
+  //console.log( {shows: data.map(entry => entry.show)} );
   return { shows: data.map(entry => entry.show ) 
   };
 
